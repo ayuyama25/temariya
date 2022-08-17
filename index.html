@@ -9,11 +9,19 @@
   <meta property="og:description" content="こだわり鮮魚と日本酒が自慢の「居酒屋 てまり屋」は、JR大井町駅から徒歩1分。身近で落ち着いた小料理屋です。旬の食材を使った一品料理に、とっておきの地酒を合わせて、ぜひご賞味ください。" >
   <meta property="og:site_name" content="居酒屋てまり屋 | 鮮魚と日本酒の店 / 大井町">
   <meta property="og:locale" content="ja_JP">
+  <link rel="icon" href="./image/icon.svg">
   <link rel="stylesheet" href="./style.css">
-  <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+  <script>
+    (function(d) {
+      var config = {
+        kitId: 'lbq4fmg',
+        scriptTimeout: 3000,
+        async: true
+      },
+      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+    })(document);
+  </script>
 </head>
 <body>
   <header>
@@ -86,7 +94,7 @@
           </div>
         </div>
         <div class="mtop-80 pc-50-r">
-          <img src="./image/noren.jpg" alt="暖簾のある外観">
+          <img class="lazyload lazyImg" src="./image/tag.gif" data-src="./image/noren.jpg" alt="暖簾のある外観">
         </div>
       </section>
       <!-- 店主 -->
@@ -102,8 +110,8 @@
           <!-- 表示部分 -->
           <div class="sp-fold contents-width">
             <div class="pc-half-lr">
-              <div class="ownerImage">
-                <img src="./image/master.jpg" alt="店主">
+              <div class="ownerImage mtop-30">
+                <img class="lazyload lazyImg" src="./image/tag.gif" data-src="./image/master.jpg" alt="店主">
               </div>
               <div class="ownerImage">
                 <h2 class="red-text textBox">旬の”酒×肴”を届けたい！</h2>
@@ -132,10 +140,10 @@
           <article class="mtop-80">
             <div class="withImageWrapper">
               <div class="circleImage mtop-30">
-                <img src="./image/OO sake1.jpg" alt="日本酒飲み比べセット">
+                <img class="lazyload lazyImg" src="./image/tag.gif" data-src="./image/OO sake1.jpg" alt="日本酒飲み比べセット">
               </div>
             <div class="only-pc circleImage-s">
-              <img src="./image/sake2.jpg" alt="日本酒飲み比べセット">
+              <img class="lazyload lazyImg" src="./image/tag.gif" data-src="./image/sake2.jpg" alt="日本酒飲み比べセット">
             </div>
               <div class="withImage contents-width-small pc-mtop-100">
                 <h3>
@@ -159,7 +167,7 @@
                   <p class="price-text mleft-s">Ask</p>
                   <div class="withImageWrapper mtop-30">
                     <div class="squareImage">
-                      <img src="./image/dish1.jpg" alt="新鮮真鯛のお刺身">
+                      <img class="lazyload lazyImg" src="./image/tag.gif" data-src="./image/dish1.jpg" alt="新鮮真鯛のお刺身">
                     </div>
                     <div class="withImage contents-width-small">
                       <p>産地直送、厳選鮮魚の刺し盛りです。</p>
@@ -173,7 +181,7 @@
                   <p class="price-text mleft-s">680円</p>
                   <div class="withImageWrapper mtop-30">
                     <div class="squareImage">
-                      <img src="./image/dish2.jpg" alt="特製もつ煮こみ">
+                      <img class="lazyload lazyImg" src="./image/tag.gif" data-src="./image/dish2.jpg" alt="特製もつ煮こみ">
                     </div>
                     <div class="withImage contents-width-small">
                       <p class="textBox">新鮮な牛もつを特製味噌で煮込んだコク深い味わいが自慢です。</p>
@@ -186,7 +194,7 @@
                   <p class="price-text mleft-s">390円</p>
                   <div class="withImageWrapper mtop-30">
                     <div class="squareImage">
-                      <img src="./image/dish3.jpg" alt="旬野菜のお新香">
+                      <img class="lazyload lazyImg" src="./image/tag.gif" data-src="./image/dish3.jpg" alt="旬野菜のお新香">
                     </div>
                     <div class="withImage contents-width-small">
                       <p class="textBox">春夏秋冬のお野菜を使った自家製のお新香です。</p>
@@ -202,7 +210,7 @@
               ご用意もあります！<span class="popUp-deco only-md"></span>
             </h4>
             <div class="circleImage circleImage-right">
-              <img src="./image/OO half.jpg" alt="ハーフサイズの御刺身">
+              <img class="lazyload lazyImg" src="./image/tag.gif" data-src="./image/OO half.jpg" alt="ハーフサイズの御刺身">
             </div>
             <div class="contents-width halfText">
               <p>” 全てのお客様にお料理を楽しんでいただくには、どうしたら・・？ ”</p>
@@ -215,7 +223,7 @@
       </section>
       <!-- ギャラリー -->
       <section id="sectionGallery" class="pc-mtop-80 pc-ptop-80">
-        <div class="gallery pb-60">
+        <div class="gallery pb-20">
           <div class="ballWrapper">
             <span class="ball"></span>
             <span class="ball"></span>
@@ -236,11 +244,11 @@
               <li class="swiper-slide">
                 <div class="galleryPanel">
                   <div class="galleryPanel-image">
-                    <img src="./image/tables.jpg" alt="お店の内装について">
+                    <img class="lazyload lazyImg" src="./image/tag.gif" data-src="./image/tables.jpg" alt="お店の内装について">
                   </div>
                   <div class="galleryPanel-text">
                     <p class="galleryText-title">お店の内装について</p>
-                    <p class="galleryText-body">てまり屋にはカウンター席の他にテーブル席が3つございます。ゆったりくつろぎたい、お荷物が大きいなど、あらゆるごニーズにお応えできるよう日々奮闘しておりますので、ご要望はお気軽にご相談ください。</p>
+                    <p class="galleryText-body">てまり屋にはカウンター席の他にテーブル席が3つございます。ゆったりくつろぎたい、お荷物が大きいなど、ご要望がございましたらお気軽にご相談ください。</p>
                   <span class="only-pc">PHOTO 01</span>
                   </div>
                 </div>
@@ -248,7 +256,7 @@
               <li class="swiper-slide">
                 <div class="galleryPanel">
                   <div class="galleryPanel-image">
-                    <img src="./image/kinme.jpg" alt="今季のおすすめです">
+                    <img class="lazyload lazyImg" src="./image/tag.gif" data-src="./image/kinme.jpg" alt="今季のおすすめです">
                   </div>
                   <div class="galleryPanel-text">
                     <p class="galleryText-title">今季のおすすめです</p>
@@ -260,7 +268,7 @@
               <li class="swiper-slide">
                 <div class="galleryPanel">
                   <div class="galleryPanel-image">
-                    <img src="./image/sake2.jpg" alt="日本酒メニュー更新中!">
+                    <img class="lazyload lazyImg" src="./image/tag.gif" data-src="./image/sake2.jpg" alt="日本酒メニュー更新中!">
                   </div>
                   <div class="galleryPanel-text">
                     <p class="galleryText-title">日本酒メニュー更新中!</p>
@@ -272,7 +280,7 @@
               <li class="swiper-slide">
                 <div class="galleryPanel">
                   <div class="galleryPanel-image">
-                    <img src="./image/yakitori.jpg" alt="地鶏の串焼き人気">
+                    <img class="lazyload lazyImg" src="./image/tag.gif" data-src="./image/yakitori.jpg" alt="地鶏の串焼き人気">
                   </div>
                   <div class="galleryPanel-text">
                     <p class="galleryText-title">地鶏の串焼き人気</p>
@@ -299,7 +307,7 @@
         <h1 class="red-line-bottom pc-cancel-vertical">SNS・新着情報</h1>
       </div>
       <div class="mtop-80 snsDiv contents-width">
-        <a class="twitter-timeline" data-height="650" data-width="600" href="https://twitter.com/Temariya_21?ref_src=twsrc%5Etfw">Tweets by Temariya_21</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <a class="twitter-timeline" data-height="650" data-width="600" href="https://twitter.com/Temariya_21?ref_src=twsrc%5Etfw">Tweets by Temariya_21</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
     </section>
     <!-- 店舗情報 -->
@@ -329,17 +337,20 @@
         <dd>全席禁煙</dd>
       </dl>
       <div class="infoImage">
-        <img src="./image/temari.jpg" alt="手毬">
+        <img class="lazyload lazyImg" src="./image/tag.gif" data-src="./image/temari.jpg" alt="手毬">
       </div>
     </section>
     <!-- お問い合わせ -->
-    <section id="sectionInquiry" class="pc-mtop-80">
+    <section id="sectionInquiry" class="pc-mtop-80 pc-ptop-80">
       <div class="inquiryDiv ptop-70 pb-100">
         <h2 class="mtop-30">ご予約・お問い合わせはこちらから</h2>
-        <p class="mtop-50 inquiryDiscription">ご不明な点はお気軽にお問い合わせください。</p>
         <div class="mtop-50">
-          <a href="#"><button class="inquiryButton">ご予約・お問い合わせ<br>フォームを開く</button></a>
+          <a href="./pages/resavation.html" target="_blank" rel="noopener noreferrer">
+            <button class="inquiryButton">ご予約フォーム</button>
+          </a>
         </div>
+        <p class="mtop-50 inquiryDiscription">ご不明な点はお気軽にお問い合わせください。</p>
+        <a href="./pages/inquiry.html" target="_blank" rel="noopener noreferrer" class="mtop-10 inquiryForm">お問い合わせ専用フォームを開く</a>
         <p class="mtop-50">お電話でのお問い合わせ ▼</p>
         <p class="mtop-10 inquiryCall">03-1234-5678</p>
         <p>（受付時間：営業日中 17：00〜22：30）</p>
@@ -377,6 +388,7 @@
     </div>
   </footer>
   <a href="#"><div class="scrollTop"></div></a>
+  <script type="text/javascript" src="./lazysizes.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <script type="text/javascript" src="./script.js"></script>
 </body>

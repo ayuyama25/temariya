@@ -3,7 +3,7 @@ const swiper = new Swiper(".swiper", {
   spaceBetween: 0,
   breakpoints: {
     832: {
-      slidesPerView: 4,
+      slidesPerView: 3,
       spaceBetween: 0,
     }
   },
@@ -27,7 +27,7 @@ const swiper = new Swiper(".swiper", {
 window.addEventListener('DOMContentLoaded', function() {
 
   /* ハンバーガーメニュー */
-  if (window.matchMedia( "(min-width: 832px)" ).matches) {
+  if (window.matchMedia( "(max-width: 831px)" ).matches) {
     openHumburger();
   };
   function openHumburger() {
