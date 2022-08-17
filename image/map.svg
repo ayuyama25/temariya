@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1280" height="344" viewBox="0 0 1280 344">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_1235" data-name="長方形 1235" width="1280" height="344" transform="translate(0 1528)" fill="#f0f3f5"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect width="16" height="2" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect width="16" height="15.999" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <rect width="41.49" height="60" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Map" transform="translate(0 -1758)">
+    <g id="マスクグループ_2" data-name="マスクグループ 2" transform="translate(0 230)" clip-path="url(#clip-path)">
+      <rect id="長方形_1234" data-name="長方形 1234" width="1280" height="344" transform="translate(0 1528)" fill="#f0f3f5"/>
+      <line id="線_25" data-name="線 25" x1="395" y2="395" transform="translate(124 1503.5)" fill="none" stroke="#fff" stroke-width="20"/>
+      <line id="線_28" data-name="線 28" x1="395" y2="395" transform="translate(840 1503.5)" fill="none" stroke="#fff" stroke-width="20"/>
+      <line id="線_23" data-name="線 23" x1="395" y2="395" transform="translate(630 1503.5)" fill="none" stroke="#fff" stroke-width="10"/>
+      <line id="線_24" data-name="線 24" x1="395" y2="395" transform="translate(430 1503.5)" fill="none" stroke="#fff" stroke-width="10"/>
+      <line id="線_20" data-name="線 20" x2="395" y2="395" transform="translate(272 1503.5)" fill="none" stroke="#fff" stroke-width="20"/>
+      <line id="線_30" data-name="線 30" x2="395" y2="395" transform="translate(395 1503.5)" fill="none" stroke="#fff" stroke-width="10"/>
+      <line id="線_29" data-name="線 29" x2="395" y2="395" transform="translate(716 1503.5)" fill="none" stroke="#fff" stroke-width="20"/>
+      <line id="線_21" data-name="線 21" x2="395" y2="395" transform="translate(198 1503.5)" fill="none" stroke="#fff" stroke-width="20"/>
+      <line id="線_22" data-name="線 22" x2="395" y2="395" transform="translate(50 1503.5)" fill="none" stroke="#fff" stroke-width="20"/>
+      <line id="線_31" data-name="線 31" x2="395" y2="395" transform="translate(-226 1503.5)" fill="none" stroke="#fff" stroke-width="10"/>
+      <g id="グループ_1431" data-name="グループ 1431" transform="translate(-10)">
+        <line id="線_26" data-name="線 26" x2="395" y2="395" transform="translate(356 1503.5)" fill="none" stroke="#cdd6dd" stroke-width="14" opacity="0.6"/>
+        <line id="線_19" data-name="線 19" x2="395" y2="395" transform="translate(356 1503.5)" fill="none" stroke="#fff" stroke-width="6" stroke-dasharray="10 12"/>
+        <line id="線_27" data-name="線 27" x2="73" y2="73" transform="translate(517 1664.5)" fill="none" stroke="#cdd6dd" stroke-width="20" stroke-dasharray="10 0"/>
+      </g>
+    </g>
+    <g id="コンポーネント_4" data-name="コンポーネント 4" transform="translate(1220 2042)">
+      <circle id="楕円形_226" data-name="楕円形 226" cx="20" cy="20" r="20" fill="#707f89"/>
+      <g id="コンポーネント_3" data-name="コンポーネント 3" transform="translate(12 19)" clip-path="url(#clip-path-2)">
+        <rect id="長方形_3" data-name="長方形 3" width="2" height="16" transform="translate(16) rotate(90)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Component_-_Add" data-name="Component - Add" transform="translate(1220 1992)">
+      <circle id="楕円形_226-2" data-name="楕円形 226" cx="20" cy="20" r="20" fill="#707f89"/>
+      <g id="Icon_-_Add" data-name="Icon - Add" transform="translate(12 12)" clip-path="url(#clip-path-3)">
+        <path id="合体_1" data-name="合体 1" d="M-4613,16V9h-7V7h7V0h2V7h7V9h-7v7Z" transform="translate(4620)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="コンポーネント_4-2" data-name="コンポーネント 4" transform="translate(619 1900)" clip-path="url(#clip-path-4)">
+      <path id="パス_770" data-name="パス 770" d="M24.213,1.323A20.72,20.72,0,0,0,6.266,32.441L24.213,61.323,42.16,32.441A20.72,20.72,0,0,0,24.213,1.323Zm0,30.12a9.375,9.375,0,1,1,9.375-9.375A9.376,9.376,0,0,1,24.213,31.443Z" transform="translate(-3.468 -1.323)" fill="#98a6b5"/>
+    </g>
+  </g>
+</svg>
