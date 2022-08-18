@@ -923,7 +923,7 @@ p {
   }
   .humburgerItem a {
     text-align: start;
-    height: 8em;
+    height: 10em;
     background-color: var(--color-navy-light);
     -webkit-writing-mode: vertical-lr;
     writing-mode: vertical-lr;
