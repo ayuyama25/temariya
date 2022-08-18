@@ -12,6 +12,13 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
-footer .form-logo {
-  margin-left: auto;
+.form-footer p {
+  margin-left: -2rem;
+  font-size: var(--font-mini);
+  color: var(--color-brown);
+}
+.form-footer {
+display: flex;
+align-items: center;
+width: calc(2rem + 6em + 60px);
 }

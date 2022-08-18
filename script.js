@@ -25,32 +25,31 @@ const swiper = new Swiper(".swiper", {
 });
 
 window.addEventListener('DOMContentLoaded', function() {
+  fixAnchor();
+  openHumburger();
+});
 
-  /* ハンバーガーメニュー */
-  if (window.matchMedia( "(max-width: 831px)" ).matches) {
-    openHumburger();
-  };
-  function openHumburger() {
-    let humburger = document.querySelector('.navigation');
-    let collapseItems = document.querySelector('.humburger');
-    let humburgerIcon = document.querySelector('.navigation-icon');
-    let humburgerClose = document.querySelector('.navigation-closed');
-    humburger.addEventListener('click', () => {
+/* ハンバーガーメニュー */
+function openHumburger() {
+  let humburger = document.querySelector('.navigation');
+  let collapseItems = document.querySelector('.humburger');
+  let humburgerIcon = document.querySelector('.navigation-icon');
+  let humburgerClose = document.querySelector('.navigation-closed');
+  humburger.addEventListener('click', () => {
+    if (window.matchMedia( "(max-width: 831px)" ).matches) {
       collapseItems.classList.toggle("collapse");
       humburger.classList.toggle("shadow");
       humburgerIcon.classList.toggle("icon-animation");
       humburgerClose.classList.toggle("navigation-close");
       humburgerClose.classList.toggle("icon-animation-closeIcon");
-    });
-  };
+    };
+  });
+};
 
-  /* 固定アンカーリンク */
-  if (window.matchMedia( "(min-width: 832px)" ).matches) {
-    fixAnchor();
-  };
-
-  function fixAnchor() {
-    window.addEventListener('scroll', function() {
+/* 固定アンカーリンク */
+function fixAnchor() {
+  window.addEventListener('scroll', function() {
+    if (window.matchMedia( "(min-width: 832px)" ).matches) {
       let nav = document.querySelector('.fix-nav');
       let ball = document.querySelector('.fix-ball');
       let scrollTop = document.body.scrollTop;
@@ -87,25 +86,25 @@ window.addEventListener('DOMContentLoaded', function() {
 
       //マーカーをつける
       if (scrollTop > section7 - bar -1) {
-        removeMark()
+        removeMark();
         anchor7.classList.add("anchor-here");
       } else if (scrollTop > section6 - bar -1) {
-        removeMark()
+        removeMark();
         anchor6.classList.add("anchor-here");
       } else if (scrollTop > section5 - bar -1) {
-        removeMark()
+        removeMark();
         anchor5.classList.add("anchor-here");
       } else if (scrollTop > section4 - bar -1) {
-        removeMark()
+        removeMark();
         anchor4.classList.add("anchor-here");
       } else if (scrollTop > section3 - bar -1) {
-        removeMark()
+        removeMark();
         anchor3.classList.add("anchor-here");
       } else if (scrollTop > section2 - bar -1) {
-        removeMark()
+        removeMark();
         anchor2.classList.add("anchor-here");
       } else if (scrollTop > section1 - bar -1) {
-        removeMark()
+        removeMark();
         anchor1.classList.add("anchor-here");
       };
       //マーカーを外す
@@ -119,6 +118,6 @@ window.addEventListener('DOMContentLoaded', function() {
           };
         }; 
       };
-    });
-  };
-});
+    };    
+  });
+};

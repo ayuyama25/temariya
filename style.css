@@ -273,7 +273,7 @@ a:hover {
   color: #fff;
   font-size: var(--font-mid);
   font-weight: 700;
-  text-shadow: 1px 1px 20px var(--color-shadow);
+  text-shadow: 1px 1px 15px var(--color-shadow);
   font-family: toppan-bunkyu-mincho-pr6n,serif;
   font-style: normal;
 }
