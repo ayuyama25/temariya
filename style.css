@@ -929,6 +929,10 @@ p {
   .topCopy {
     top: -15%;
   }
+  .topCopy p {
+    font-size: var(--font-mid);
+    text-shadow: 1px 1px 15px var(--color-shadow);
+  }
   .ballWrapper {
     --amount: 12;
   }
