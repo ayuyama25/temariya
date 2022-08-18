@@ -42,3 +42,10 @@ https://temariya.netlify.app/
 
 3. 来店を促す
 * 実際の日々のメニュー、店舗情報、オンライン予約の導線をわかりやすく伝え、新規の来店やSNSフォローの可能性を高める。
+
+### 技術
+HTML5, CSS3, JavaScript
+* ライブラリ等: Swiper, LazySizes, フォームメーラー
+* サーバー: Netlify
+
+サイトURL👉 https://temariya.netlify.app/
