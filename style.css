@@ -701,6 +701,9 @@ p {
 .inquiryCall {
   font-size: var(--font-large);
 }
+.inquiryCall~p {
+  font-size: var(--font-mini);
+}
 /* レイアウト */
 .only-pc {
   display: none;
