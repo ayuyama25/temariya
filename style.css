@@ -217,7 +217,7 @@ a:hover {
   width: 100vw;
   height: 100vh;
   display: block;
-  z-index: 100;
+  z-index: 500;
   transition: 0.3s;
   background-color: var(--color-navy-light);
 }
@@ -241,7 +241,7 @@ a:hover {
   padding-top: calc(var(--logoWidth) + var(--topAdjust));
   opacity: 1;
   transition: 0.3s;
-  z-index: 100;
+  z-index: 1000;
   background-color: var(--color-black-light);
 }
 .humburgerItem a {
@@ -262,18 +262,53 @@ a:hover {
   transition-timing-function: ease;
   transform: translate3d(40vw, -100%, 0);
 }
+/* お問い合わせジャンプ */
+.jumpToInquiry {
+  height: 0;
+  width: 0;
+  opacity: 0;
+  position: fixed;
+  top: calc(61px + 1.5rem);
+  right: 0;
+  z-index: 500;
+  transition: 0.3s;
+}
+.fixedBanner {
+  height: auto;
+  width: auto;
+  opacity: 1;
+}
+.jumpToInquiry a {
+  cursor: pointer;
+  padding: 2rem 0.5rem;
+  border-radius: 50vh 0 0 50vh;
+  color: #fff;
+  background: var(--color-gradation);
+  -webkit-writing-mode: vertical-lr;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  font-weight: 700;
+  font-family: toppan-bunkyu-midashi-min-st, serif;
+}
+.jumpToInquiry a:hover {
+  color: var(--color-red);
+  background: #fff;
+  opacity: 1;
+}
 /* コピー */
 .topCopy {
   position: relative;
   top: 13%;
   text-align: center;
-  width: 100%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .topCopy p {
   color: #fff;
-  font-size: var(--font-mid);
+  font-size: var(--font-regular);
   font-weight: 700;
-  text-shadow: 1px 1px 15px var(--color-shadow);
+  text-shadow: 1px 1px 15px #fff;
   font-family: toppan-bunkyu-mincho-pr6n,serif;
   font-style: normal;
 }
@@ -650,7 +685,7 @@ p {
 }
 .inquiryButton {
   font-size: var(--font-mid);
-  display: block;
+  display: inline-block;
   margin-left: auto;
   margin-right: auto;
   color: #fff;
@@ -804,7 +839,7 @@ p {
   :root {
     --font-large: 2.2rem;
     --font-mid: 1.75rem;
-    --font-regular: 1.56rem;
+    --font-regular: 1.5rem;
     --font-small: 1.19rem;
     --font-mini: 0.93rem;
   }
@@ -829,6 +864,9 @@ p {
   .humburger {
     --logoWidth: 70px;
     --topAdjust: 15px;
+  }
+  .jumpToInquiry {
+    top: calc(85px + 1.5rem);
   }
   .popUp::after {
     --bubble-width: 25px;
@@ -930,6 +968,9 @@ p {
     text-orientation: upright;
     font-size: var(--font-small);
   }
+  .humburgerItem:last-child a {
+    color: var(--color-cream);
+  }
   .collapse {
     opacity: 1;
     transition: 0;
@@ -967,6 +1008,9 @@ p {
     font-size: var(--font-mini);
     font-family: toppan-bunkyu-mincho-pr6n,serif;
     color: #fff;
+  }
+  .fixed-humburgerItem:last-child a {
+    color: var(--color-cream);
   }
   .anchor-here a {
     background-color: var(--color-red);

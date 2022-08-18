@@ -27,6 +27,7 @@ const swiper = new Swiper(".swiper", {
 window.addEventListener('DOMContentLoaded', function() {
   fixAnchor();
   openHumburger();
+  fixBanner();
 });
 
 /* ハンバーガーメニュー */
@@ -45,7 +46,23 @@ function openHumburger() {
     };
   });
 };
-
+/* お問い合わせバナー */
+function fixBanner() {
+  window.addEventListener('scroll', function() {
+    if (window.matchMedia( "(max-width: 831px)" ).matches) {
+      let banner = document.querySelector('.jumpToInquiry');
+      let scrollTop = document.body.scrollTop;
+      let exitPoint = document.querySelector('#sectionInfo').getBoundingClientRect().bottom + scrollTop;
+      let bar = 80; //調整
+      //店舗情報セクションを過ぎたらアンカーリンクを非表示
+      if (scrollTop > exitPoint - bar) {
+        banner.classList.remove("fixedBanner");
+      } else {
+        banner.classList.add("fixedBanner");
+      };
+    };
+  });
+};
 /* 固定アンカーリンク */
 function fixAnchor() {
   window.addEventListener('scroll', function() {
@@ -82,7 +99,7 @@ function fixAnchor() {
       let anchor5 = document.querySelector('.anchor5');
       let anchor6 = document.querySelector('.anchor6');
       let anchor7 = document.querySelector('.anchor7');
-      let bar = 100; //調整
+      let bar = 80; //調整
 
       //マーカーをつける
       if (scrollTop > section7 - bar -1) {

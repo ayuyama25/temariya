@@ -12,6 +12,9 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
+.inquiryTop {
+  background-color: #FBE8E6;
+}
 .form-footer p {
   margin-left: -2rem;
   font-size: var(--font-mini);
